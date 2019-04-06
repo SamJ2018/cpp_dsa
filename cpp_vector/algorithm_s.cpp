@@ -43,11 +43,15 @@ void reverse(int* A, int lo, int hi)
 	}//隐含了两种递归基
 }//O(hi-lo+1)
 //迭代版本
+#if 0
 void reverse(int* A, int lo, int hi)
 {
-	while (lo < hi) {//swap(A[lo++],A[hi--]);
+	while (lo < hi) 
+	{
+		swap(A[lo++],A[hi--]);
 	}
 }
+#endif
 
 //5、优化的幂函数(线性递归版本)
 inline _int64 sqr(int a) { return a * a; }
@@ -88,4 +92,9 @@ _int64 fibI(int n)
 		f = g - f; 
 	}
 	return f;  
+}
+
+int main()
+{
+	return 0;
 }

@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{22521DAC-E12E-4EC3-B45C-0654402325BE}</ProjectGuid>
-    <RootNamespace>cppdsa</RootNamespace>
+    <ProjectGuid>{DC2F405D-81F3-4430-9CC6-F74DD31AAB5B}</ProjectGuid>
+    <RootNamespace>cppfibonacci</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,6 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="fib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bin_recur_fibonacci_.cpp" />
+    <ClCompile Include="fibanacci_recursion.cpp" />
+    <ClCompile Include="linear_recur_fibonacci.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
