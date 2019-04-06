@@ -13,10 +13,156 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\vetor_implementation">
+      <UniqueIdentifier>{78952415-9486-43b7-bd33-5680cd0bd3ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utility">
+      <UniqueIdentifier>{3d79a067-45ee-43c4-bf52-98b9072523a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pre_sort">
+      <UniqueIdentifier>{50398d99-17a2-4a81-b992-ab69f03032e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sort_fun">
+      <UniqueIdentifier>{7503290f-d0b4-4b3f-844b-3a18381be216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\search">
+      <UniqueIdentifier>{4ac29f41-fdbf-4147-9a45-06edd30873b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="vector_implementation.h">
+      <Filter>Header Files\vetor_implementation</Filter>
+    </ClInclude>
     <ClInclude Include="vector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="vector_assignment.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="permute.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bracket.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_constructor_by_copying.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_deduplicate.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_deduplicate_1.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_deduplicate_wrong_1.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_disordered.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_expand.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_find.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_insert.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_remove.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_removeinterval.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_test.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_traverse.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_uniquify.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_uniquify_slow.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_unsort.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_partition_c.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_partition_a.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_partition_a1.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_partition_b.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_partition_b1.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_merge.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubble.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_merge_optimized.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubble_fast.h">
+      <Filter>Header Files\pre_sort</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubblesort.h">
+      <Filter>Header Files\sort_fun</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_bubblesort_fast.h">
+      <Filter>Header Files\sort_fun</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_heapsort.h">
+      <Filter>Header Files\sort_fun</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_mergesort.h">
+      <Filter>Header Files\sort_fun</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_quicksort.h">
+      <Filter>Header Files\sort_fun</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_shrink.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search_binary_a.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search_binary_b.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search_binary_c.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search_fibonaccian_a.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_search_fibonaccian_b.h">
+      <Filter>Header Files\search</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_selectionsort.h">
+      <Filter>Header Files\sort_fun</Filter>
+    </ClInclude>
+    <ClInclude Include="vector_sort.h">
+      <Filter>Header Files\sort_fun</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="algorithm_s.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
