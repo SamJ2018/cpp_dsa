@@ -8,5 +8,5 @@ int Vector<T>::disordered() const
 	int n = 0; //计数器
 	for (int i = 1; i < _size; i++)  //逐一检查_size-1对相邻元素
 		if (_elem[i - 1] > _elem[i]) n++;
-	retrn n; //向量有序的条件当且仅当n=0
+	return n; //向量有序的条件当且仅当n=0
 }

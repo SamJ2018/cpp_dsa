@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{8CFEFC6A-DEAF-4260-8042-4B48CF74FFCC}</ProjectGuid>
-    <RootNamespace>cppvector</RootNamespace>
+    <ProjectGuid>{96098E2C-4E08-42FE-84AE-132AE4ABA337}</ProjectGuid>
+    <RootNamespace>cpplist</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,53 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="algorithm_sort.h" />
-    <ClInclude Include="permute.h" />
-    <ClInclude Include="vector.h" />
-    <ClInclude Include="vector_assignment.h" />
-    <ClInclude Include="vector_bracket.h" />
-    <ClInclude Include="vector_bubble.h" />
-    <ClInclude Include="vector_bubblesort.h" />
-    <ClInclude Include="vector_bubble_fast.h" />
-    <ClInclude Include="vector_constructor_by_copying.h" />
-    <ClInclude Include="vector_deduplicate.h" />
-    <ClInclude Include="vector_deduplicate_1.h" />
-    <ClInclude Include="vector_deduplicate_wrong_1.h" />
-    <ClInclude Include="vector_disordered.h" />
-    <ClInclude Include="vector_expand.h" />
-    <ClInclude Include="vector_find.h" />
-    <ClInclude Include="vector_heapsort.h" />
-    <ClInclude Include="vector_implementation.h" />
-    <ClInclude Include="vector_insert.h" />
-    <ClInclude Include="vector_merge.h" />
-    <ClInclude Include="vector_mergesort.h" />
-    <ClInclude Include="vector_merge_optimized.h" />
-    <ClInclude Include="vector_partition_a.h" />
-    <ClInclude Include="vector_partition_a1.h" />
-    <ClInclude Include="vector_partition_b.h" />
-    <ClInclude Include="vector_partition_b1.h" />
-    <ClInclude Include="vector_partition_c.h" />
-    <ClInclude Include="vector_quicksort.h" />
-    <ClInclude Include="vector_remove.h" />
-    <ClInclude Include="vector_removeinterval.h" />
-    <ClInclude Include="vector_search.h" />
-    <ClInclude Include="vector_search_binary_a.h" />
-    <ClInclude Include="vector_search_binary_b.h" />
-    <ClInclude Include="vector_search_binary_c.h" />
-    <ClInclude Include="vector_search_fibonaccian_a.h" />
-    <ClInclude Include="vector_search_fibonaccian_b.h" />
-    <ClInclude Include="vector_selectionsort.h" />
-    <ClInclude Include="vector_shrink.h" />
-    <ClInclude Include="vector_sort.h" />
-    <ClInclude Include="vector_test.h" />
-    <ClInclude Include="vector_traverse.h" />
-    <ClInclude Include="vector_uniquify.h" />
-    <ClInclude Include="vector_uniquify_slow.h" />
-    <ClInclude Include="vector_unsort.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="ListNode.h" />
+    <ClInclude Include="listnode_implementation.h" />
+    <ClInclude Include="list_bracket.h" />
+    <ClInclude Include="list_constructor_by_copying.h" />
+    <ClInclude Include="list_copynodes.h" />
+    <ClInclude Include="list_deduplicate.h" />
+    <ClInclude Include="list_destructor.h" />
+    <ClInclude Include="list_find.h" />
+    <ClInclude Include="list_initialize.h" />
+    <ClInclude Include="list_insert.h" />
+    <ClInclude Include="list_remove.h" />
+    <ClInclude Include="list_traverse.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="algorithm_s.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="notes.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -28,6 +28,9 @@
     <Filter Include="Header Files\search">
       <UniqueIdentifier>{4ac29f41-fdbf-4147-9a45-06edd30873b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\algorithm">
+      <UniqueIdentifier>{138f8c68-fefb-49b9-97c2-f91ad82bb394}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vector_implementation.h">
@@ -120,9 +123,6 @@
     <ClInclude Include="vector_bubblesort.h">
       <Filter>Header Files\sort_fun</Filter>
     </ClInclude>
-    <ClInclude Include="vector_bubblesort_fast.h">
-      <Filter>Header Files\sort_fun</Filter>
-    </ClInclude>
     <ClInclude Include="vector_heapsort.h">
       <Filter>Header Files\sort_fun</Filter>
     </ClInclude>
@@ -159,10 +159,16 @@
     <ClInclude Include="vector_sort.h">
       <Filter>Header Files\sort_fun</Filter>
     </ClInclude>
+    <ClInclude Include="algorithm_sort.h">
+      <Filter>Header Files\algorithm</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="algorithm_s.cpp">
       <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

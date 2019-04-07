@@ -94,7 +94,3 @@ _int64 fibI(int n)
 	return f;  
 }
 
-int main()
-{
-	return 0;
-}
